@@ -1,8 +1,8 @@
 Package: BISdata
 Type: Package
 Title: Download Data from the Bank for International Settlements (BIS)
-Version: 0.1-1
-Date: 2022-03-07
+Version: 0.2-0
+Date: 2022-10-06
 Maintainer: Enrico Schumann <es@enricoschumann.net>
 Authors@R: person("Enrico", "Schumann",
                   role  = c("aut", "cre"),
@@ -23,7 +23,7 @@ URL: http://enricoschumann.net/R/packages/BISdata/,
 LazyLoad: yes
 ByteCompile: yes
 NeedsCompilation: no
-Packaged: 2022-03-07 13:55:42 UTC; es19
+Packaged: 2022-10-06 07:55:07 UTC; es19
 Author: Enrico Schumann [aut, cre] (<https://orcid.org/0000-0001-7601-6576>)
 Repository: CRAN
-Date/Publication: 2022-03-09 09:00:05 UTC
+Date/Publication: 2022-10-06 08:20:02 UTC

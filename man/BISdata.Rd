@@ -16,6 +16,7 @@ fetch_dataset(dest.dir, dataset,
               bis.url = "https://www.bis.org/statistics/",
               exdir = tempdir(),
               return.class = NULL,
+              frequency = NULL,
               \dots)
 datasets(url = "https://www.bis.org/statistics/full_data_sets.htm", \dots)
 
@@ -39,13 +40,16 @@ datasets(url = "https://www.bis.org/statistics/full_data_sets.htm", \dots)
   \item{return.class}{\code{NULL} or character: currently, only
     \code{\link[zoo]{zoo}} is supported
   }
+  \item{frequency}{
+    string, or nothing (\code{NULL})
+  }
   \item{\dots}{
-    currently not used
+    passed on to \code{\link{read.table}}
   }
 }
 \details{
 
-  
+
   Supported are full datasets (typically) in
   \acronym{CSV} format.  Downloaded data may
   optionally be cached, to avoid repeated downloads

@@ -1,4 +1,14 @@
-v0.1-0  (2022-03-07)
+v0.2-0  (2022-10-06)
+
+  o more datasets are now supported
+
+  o add 'zoo' support for dataset USD exchange rates
+    ("full_xru_d_csv_row.zip")
+
+  o function 'fetch_dataset' gains an argument
+    'frequency'
+
+v0.1-1  (2022-03-07)
 
   o First release. The package provides functions for
     downloading data from the Bank for International
